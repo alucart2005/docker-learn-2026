@@ -1,0 +1,9 @@
+{
+  "name": "docker-learn-2026",
+  "version": "1.0.0",
+  "description": "Aprender Docker y Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  }
+}
