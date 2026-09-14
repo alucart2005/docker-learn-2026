@@ -10,7 +10,7 @@ const sistema = {
   nodeVersion: process.version.slice(1),
   plataforma: process.platform,
   arquitectura: process.arch,
-  ultimoPar: 4
+  ultimaSuma: resultado
 };
 
 console.log(`
@@ -25,7 +25,7 @@ console.log(`
   Original:       nardev
   Copia:          otra persona                »
 
-  Último par:     ${sistema.ultimoPar}
+  Última Suma:     ${sistema.ultimaSuma}
 
 ╔══════════════════════════════════════════════════╗
 ║   ® Todo funcionó! Tu versión de Node soporta    ║
