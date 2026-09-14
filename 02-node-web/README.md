@@ -35,18 +35,18 @@ npm start
 
 ### Docker
 ```bash
-docker build -t node-web-02 .
-docker run -d -p 3001:3001 -e PORT=3001 node-web-02
+docker build -t node-web-2 .
+docker run -d -p 3001:3001 -e PORT=3001 --name puerto-3001 node-web-2
 ```
 
 ### Docker con variables
 ```bash
-docker run -d -p 3001:3001 \
+docker run -d -p 3012:3012 \
   -e SALUDO="Hola Napoleon" \
   -e HOSTNAME="nar" \
-  -e PORT=3001 \
-  --name web-02 \
-  node-web-02
+  -e PORT=3012 \
+  --name puerto12 \
+  node-web-2
 ```
 
 ## Probar
